@@ -17,3 +17,4 @@
 - [Короткий опис проєкту](project-brief.md)
 - [Класифікація проєкту та аналіз оточення](project-classification.md)
 - [Життєвий цикл проєкту](project-lifecycle.md)
+- [Життєвий цикл проєкту](competitor-analysis.md)
