@@ -18,3 +18,5 @@
 - [Класифікація проєкту та аналіз оточення](project-classification.md)
 - [Життєвий цикл проєкту](project-lifecycle.md)
 - [Налаштування Jira — лабораторна №4](jira-setup.md)
+- [Планування часу та вартості — лабораторна №5 (навчальна модель)](docs/time-cost-plan.md)
+- [Jira Roadmap / Timeline](https://artyrcomfy3065.atlassian.net/jira/software/projects/FCUA/boards/34/timeline)
