@@ -1,5 +1,7 @@
 # План часу та вартості проєкту FridgeChef UA
 
+> **Уточнення під час ЛР6, 23.11.2026:** цей файл зберігає початковий план ЛР5. Поточний Sprint 2 скориговано: FCUA-13 (3 SP / 18h) повернуто у Backlog, FCUA-7 (2 SP / 12h) додано; тепер 5 Stories, **16 SP / 96h**, кожен виконавець має 32h. Оцінки наявних підзадач не зменшувались. Актуальні Labels, Assignee, Capacity з резервом 20% і ресурсний план наведені у [resources.md](../resources.md). Дані 17 SP / 102h нижче є історичним знімком ЛР5.
+
 **Лабораторна №5 · Команда:** Артур Кумановський, Сергій Пронь, Дмитро Загородній
 **Дата:** 23.11.2026 · **[Jira](https://artyrcomfy3065.atlassian.net/jira/software/projects/FCUA/boards/34/backlog)** · **[Roadmap / Timeline](https://artyrcomfy3065.atlassian.net/jira/software/projects/FCUA/boards/34/timeline)**
 

@@ -1,0 +1,728 @@
+{
+  "date": "2026-11-23",
+  "site": "https://artyrcomfy3065.atlassian.net",
+  "project": "FCUA",
+  "board": 34,
+  "activeSprint": 36,
+  "availability": {
+    "basis": "Planning assumption authorized by user; not measured availability",
+    "hoursPerWeekPerPerson": 20,
+    "fteRelativeTo40Hours": 0.5,
+    "weeks": 2,
+    "overhead": 0.2,
+    "effectiveHoursPerPerson": 32
+  },
+  "skills": {
+    "basis": "User supplied self-assessment, scale 0-3",
+    "order": [
+      "Frontend",
+      "Backend/API",
+      "Databases",
+      "Testing",
+      "DevOps",
+      "Design/Figma",
+      "Git"
+    ],
+    "Arthur": [
+      1,
+      2,
+      2,
+      3,
+      0,
+      1,
+      1
+    ],
+    "Serhii": [
+      3,
+      0,
+      1,
+      1,
+      0,
+      3,
+      1
+    ],
+    "Dmytro": [
+      3,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "issues": [
+    {
+      "key": "FCUA-1",
+      "type": "Epic",
+      "parent": null,
+      "summary": "Введення інгредієнтів і параметрів",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-2",
+      "type": "Epic",
+      "parent": null,
+      "summary": "AI-генерація та картка рецепта",
+      "assignee": "Дмитро Загородній",
+      "area": "backend",
+      "labels": [
+        "backend",
+        "lab4"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-3",
+      "type": "Epic",
+      "parent": null,
+      "summary": "Профіль і харчові обмеження",
+      "assignee": "Дмитро Загородній",
+      "area": "backend",
+      "labels": [
+        "backend",
+        "lab4"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-4",
+      "type": "Epic",
+      "parent": null,
+      "summary": "Збереження і додаткові матеріали",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-5",
+      "type": "Story",
+      "parent": "FCUA-1",
+      "summary": "Як користувач, я хочу додавати та видаляти інгредієнти, щоб сформувати перелік наявних продуктів",
+      "assignee": "Артур Кумановський",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4",
+        "lab5-model",
+        "must-have"
+      ],
+      "status": "Done",
+      "storyPoints": 3,
+      "originalHours": 18,
+      "timeSpentHours": 18,
+      "sprintIds": [
+        34,
+        35
+      ]
+    },
+    {
+      "key": "FCUA-6",
+      "type": "Story",
+      "parent": "FCUA-1",
+      "summary": "Як користувач, я хочу обирати кухню, час і режим використання продуктів, щоб налаштувати результат",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4",
+        "lab5-model",
+        "must-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 3,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-7",
+      "type": "Story",
+      "parent": "FCUA-1",
+      "summary": "Як користувач, я хочу отримувати перевірку введених параметрів, щоб не надсилати некоректний запит",
+      "assignee": "Дмитро Загородній",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4",
+        "lab5-model",
+        "should-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 2,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-8",
+      "type": "Story",
+      "parent": "FCUA-2",
+      "summary": "Як користувач, я хочу генерувати рецепти українською мовою, щоб отримати ідеї з наявних продуктів",
+      "assignee": "Дмитро Загородній",
+      "area": "backend",
+      "labels": [
+        "backend",
+        "lab4",
+        "lab5-model",
+        "must-have"
+      ],
+      "status": "Done",
+      "storyPoints": 8,
+      "originalHours": 48,
+      "timeSpentHours": 48,
+      "sprintIds": [
+        34,
+        35
+      ]
+    },
+    {
+      "key": "FCUA-9",
+      "type": "Story",
+      "parent": "FCUA-2",
+      "summary": "Як користувач, я хочу переглядати детальну картку рецепта, щоб дізнатися склад і спосіб приготування",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4",
+        "lab5-model",
+        "must-have"
+      ],
+      "status": "Done",
+      "storyPoints": 5,
+      "originalHours": 30,
+      "timeSpentHours": 30,
+      "sprintIds": [
+        34,
+        35
+      ]
+    },
+    {
+      "key": "FCUA-10",
+      "type": "Story",
+      "parent": "FCUA-2",
+      "summary": "Як користувач, я хочу бачити зрозуміле повідомлення при помилці AI-сервісу, щоб повторити запит",
+      "assignee": "Дмитро Загородній",
+      "area": "backend",
+      "labels": [
+        "backend",
+        "lab4",
+        "lab5-model",
+        "must-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 3,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-11",
+      "type": "Story",
+      "parent": "FCUA-3",
+      "summary": "Як користувач, я хочу вказати тип харчування, щоб отримувати відповідні рецепти",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4",
+        "lab5-model",
+        "must-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 3,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-12",
+      "type": "Story",
+      "parent": "FCUA-3",
+      "summary": "Як користувач з алергіями, я хочу виключити небезпечні продукти, щоб уникати рецептів із зазначеними алергенами",
+      "assignee": "Дмитро Загородній",
+      "area": "backend",
+      "labels": [
+        "backend",
+        "lab4",
+        "lab5-model",
+        "must-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 5,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-13",
+      "type": "Story",
+      "parent": "FCUA-3",
+      "summary": "Як користувач, я хочу зберегти харчові вподобання, щоб не вводити їх повторно",
+      "assignee": "Дмитро Загородній",
+      "area": "backend",
+      "labels": [
+        "backend",
+        "lab4",
+        "lab5-model",
+        "should-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 3,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-14",
+      "type": "Story",
+      "parent": "FCUA-4",
+      "summary": "Як авторизований користувач, я хочу зберігати рецепти в улюблені, щоб повернутися до них пізніше",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4",
+        "lab5-model",
+        "should-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 3,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-15",
+      "type": "Story",
+      "parent": "FCUA-4",
+      "summary": "Як користувач, я хочу сортувати рецепти, щоб швидше знайти потрібний варіант",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "could-have",
+        "frontend",
+        "lab4",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 2,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-16",
+      "type": "Story",
+      "parent": "FCUA-4",
+      "summary": "Як користувач, я хочу переглядати тематичне відео, щоб отримати додаткову допомогу з приготуванням",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab4",
+        "lab5-model",
+        "wont-have"
+      ],
+      "status": "To Do",
+      "storyPoints": 3,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-17",
+      "type": "Subtask",
+      "parent": "FCUA-6",
+      "summary": "[Design] Кухня, час і режим продуктів",
+      "assignee": "Vailhar",
+      "area": "design",
+      "labels": [
+        "design",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 2,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-18",
+      "type": "Subtask",
+      "parent": "FCUA-6",
+      "summary": "[FE] Кухня, час і режим продуктів",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 10,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-19",
+      "type": "Subtask",
+      "parent": "FCUA-6",
+      "summary": "[QA] Кухня, час і режим продуктів",
+      "assignee": "Артур Кумановський",
+      "area": "qa",
+      "labels": [
+        "lab5-model",
+        "qa"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 6,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-20",
+      "type": "Subtask",
+      "parent": "FCUA-10",
+      "summary": "[Design] Обробка помилок AI",
+      "assignee": "Vailhar",
+      "area": "design",
+      "labels": [
+        "design",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 2,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-21",
+      "type": "Subtask",
+      "parent": "FCUA-10",
+      "summary": "[FE] Обробка помилок AI",
+      "assignee": "Дмитро Загородній",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 10,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-22",
+      "type": "Subtask",
+      "parent": "FCUA-10",
+      "summary": "[QA] Обробка помилок AI",
+      "assignee": "Артур Кумановський",
+      "area": "qa",
+      "labels": [
+        "lab5-model",
+        "qa"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 6,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-23",
+      "type": "Subtask",
+      "parent": "FCUA-11",
+      "summary": "[Design] Тип харчування",
+      "assignee": "Vailhar",
+      "area": "design",
+      "labels": [
+        "design",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 2,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-24",
+      "type": "Subtask",
+      "parent": "FCUA-11",
+      "summary": "[FE] Тип харчування",
+      "assignee": "Vailhar",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 10,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-25",
+      "type": "Subtask",
+      "parent": "FCUA-11",
+      "summary": "[QA] Тип харчування",
+      "assignee": "Артур Кумановський",
+      "area": "qa",
+      "labels": [
+        "lab5-model",
+        "qa"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 6,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-26",
+      "type": "Subtask",
+      "parent": "FCUA-12",
+      "summary": "[Design] Виключення алергенів",
+      "assignee": "Vailhar",
+      "area": "design",
+      "labels": [
+        "design",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 4,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-27",
+      "type": "Subtask",
+      "parent": "FCUA-12",
+      "summary": "[FE] Виключення алергенів",
+      "assignee": "Дмитро Загородній",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 16,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-28",
+      "type": "Subtask",
+      "parent": "FCUA-12",
+      "summary": "[QA] Виключення алергенів",
+      "assignee": "Артур Кумановський",
+      "area": "qa",
+      "labels": [
+        "lab5-model",
+        "qa"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 10,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-29",
+      "type": "Subtask",
+      "parent": "FCUA-13",
+      "summary": "[Design] Збереження вподобань",
+      "assignee": "Vailhar",
+      "area": "design",
+      "labels": [
+        "design",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 2,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-30",
+      "type": "Subtask",
+      "parent": "FCUA-13",
+      "summary": "[FE] Збереження вподобань",
+      "assignee": "Дмитро Загородній",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab5-model"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 10,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-31",
+      "type": "Subtask",
+      "parent": "FCUA-13",
+      "summary": "[QA] Збереження вподобань",
+      "assignee": "Артур Кумановський",
+      "area": "qa",
+      "labels": [
+        "lab5-model",
+        "qa"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 6,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-32",
+      "type": "Task",
+      "parent": null,
+      "summary": "[MODEL] Доступність Gemini API",
+      "assignee": "Артур Кумановський",
+      "area": "infra",
+      "labels": [
+        "external-dependency",
+        "infra",
+        "lab5-model"
+      ],
+      "status": "Done",
+      "storyPoints": 0,
+      "originalHours": 0,
+      "timeSpentHours": 0,
+      "sprintIds": []
+    },
+    {
+      "key": "FCUA-33",
+      "type": "Subtask",
+      "parent": "FCUA-7",
+      "summary": "[Design] Валідація введених параметрів",
+      "assignee": "Vailhar",
+      "area": "design",
+      "labels": [
+        "design",
+        "lab5-model",
+        "lab6-resources"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 2,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-34",
+      "type": "Subtask",
+      "parent": "FCUA-7",
+      "summary": "[FE] Валідація введених параметрів",
+      "assignee": "Дмитро Загородній",
+      "area": "frontend",
+      "labels": [
+        "frontend",
+        "lab5-model",
+        "lab6-resources"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 6,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    },
+    {
+      "key": "FCUA-35",
+      "type": "Subtask",
+      "parent": "FCUA-7",
+      "summary": "[QA] Валідація введених параметрів",
+      "assignee": "Артур Кумановський",
+      "area": "qa",
+      "labels": [
+        "lab5-model",
+        "lab6-resources",
+        "qa"
+      ],
+      "status": "To Do",
+      "storyPoints": 0,
+      "originalHours": 4,
+      "timeSpentHours": 0,
+      "sprintIds": [
+        36
+      ]
+    }
+  ]
+}
